@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <title>LorIT - Smart Living</title>
+    <meta name="description" content="LorIT - Smart Home, Camera, AI for Business & Network Solutions" />
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#DC2626', // Red-600
+              'primary-hover': '#B91C1C', // Red-700
+              dark: '#0A0A0A',
+              'dark-card': '#171717',
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    
+    <!-- Fonts and Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+      body {
+        background-color: #000000;
+        color: #ffffff;
+      }
+      /* Custom scrollbar for webkit */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #000000; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #DC2626; 
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #B91C1C; 
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
